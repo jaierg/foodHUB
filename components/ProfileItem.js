@@ -16,11 +16,11 @@ const ProfileItem = ({
 }) => {
 	return (
 		<View style={styles.containerProfileItem}>
-			{/* <View style={styles.matchesProfileItem}>
+			<View style={styles.matchesProfileItem}>
 				<Text style={styles.matchesTextProfileItem}>
 					<Icon name="heart" /> {matches}% Match!
 				</Text>
-			</View> */}
+			</View>
 
 			<Text style={styles.name}>{name}</Text>
 
