@@ -41,21 +41,21 @@ const CardItem = ({
 			<Image source={image} style={imageStyle} />
 
 			{/* MATCHES */}
-			{matches && (
+			{/* {matches && (
 				<View style={styles.matchesCardItem}>
 					<Text style={styles.matchesTextCardItem}>
 						<Icon name="heart" /> {matches}% Match!
 					</Text>
 				</View>
-			)}
+			)} */}
 
 			{/* NAME */}
 			<Text style={nameStyle}>{name}</Text>
 
 			{/* DESCRIPTION */}
-			{description && (
+			{/* {description && (
 				<Text style={styles.descriptionCardItem}>{description}</Text>
-			)}
+			)} */}
 
 			{/* STATUS */}
 			{status && (

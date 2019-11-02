@@ -20,8 +20,8 @@ const Profile = () => {
 		info2,
 		info3,
 		info4,
-		location,
-		match,
+		// location,
+		// match,
 		name
 	} = Demo[7];
 
@@ -33,25 +33,25 @@ const Profile = () => {
 			<ScrollView style={styles.containerProfile}>
 				<ImageBackground source={image} style={styles.photo}>
 					<View style={styles.top}>
-						<TouchableOpacity>
-							<Text style={styles.topIconLeft}>
-								<Icon name="chevronLeft" />
-							</Text>
-						</TouchableOpacity>
+						{/* <TouchableOpacity>
+							<Text style={styles.topIconLeft}> */}
+								{/* <Icon name="chevronLeft" /> */}
+							{/* </Text>
+						</TouchableOpacity> */}
 
-						<TouchableOpacity>
+						{/* <TouchableOpacity>
 							<Text style={styles.topIconRight}>
 								<Icon name="optionsV" />
 							</Text>
-						</TouchableOpacity>
+						</TouchableOpacity> */}
 					</View>
 				</ImageBackground>
 
 				<ProfileItem
-					matches={match}
+					// matches={match}
 					name={name}
 					age={age}
-					location={location}
+					// location={location}
 					info1={info1}
 					info2={info2}
 					info3={info3}
@@ -59,18 +59,18 @@ const Profile = () => {
 				/>
 
 				<View style={styles.actionsProfile}>
-					<TouchableOpacity style={styles.circledButton}>
+					{/* <TouchableOpacity style={styles.circledButton}>
 						<Text style={styles.iconButton}>
 							<Icon name="optionsH" />
 						</Text>
-					</TouchableOpacity>
-
-					<TouchableOpacity style={styles.roundedButton}>
-						<Text style={styles.iconButton}>
+					</TouchableOpacity> */}
+ 
+					{/* <TouchableOpacity style={styles.roundedButton} */}
+						{/* <Text style={styles.iconButton}>
 							<Icon name="chat" />
-						</Text>
-						<Text style={styles.textButton}>Start chatting</Text>
-					</TouchableOpacity>
+						</Text> */}
+						{/* <Text style={styles.textButton}>Start chatting</Text> */}
+					{/* </TouchableOpacity> */}
 				</View>
 			</ScrollView>
 		</ImageBackground>
