@@ -31,6 +31,7 @@
 
 // The fetch is throwing right away, after many hours of troubleshooting,
 // we are ignoring it and hardcoding for now.
+var arr = "Shain";
 
 function api(){
 fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-documents/20191102-564452-10100006-0', {
@@ -43,12 +44,12 @@ fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-doc
     'nep-organization': 'silver-merchant-552518',
     'nep-service-version': '2:1'
   },
-}).then(response => module.exports.arr = response.json())
-
+}).then(response => response.json())
+    // arr.push(response.json())
     .catch((error) => {
 
       console.error(error);
     });
 }
 
-api();
+module.exports.arr = api();

@@ -15,7 +15,9 @@ import Demo from "../assets/data/demo.js";
 import {cart} from "../components/CardItem";
 
 const Matches = () => {
+	if (item == cart) {
 
+	}
 	return (
 		<ImageBackground
 			source={require("../assets/images/bg.png")}
@@ -24,16 +26,29 @@ const Matches = () => {
 			<View style={styles.containerMatches}>
 				<ScrollView>
 					<View style={styles.top}>
-						<Text style={styles.title}>Cart</Text>
+						<Text style={styles.title}>Matches</Text>
 						<TouchableOpacity>
 							<Text style={styles.icon}>
 								<Icon name="optionsV" />
 							</Text>
 						</TouchableOpacity>
 					</View>
-					
-		</TouchableOpacity>
-					s
+
+					<FlatList
+						numColumns={2}
+						data={Demo}
+						keyExtractor={(item, index) => index.toString()}
+						renderItem={({ item }) => (
+							<TouchableOpacity>
+								<CardItem
+									image={item.image}
+									name={item.name}
+									status={item.status}
+									variant
+								/>
+							</TouchableOpacity>
+						)}
+					/>
 				</ScrollView>
 			</View>
 		</ImageBackground>
