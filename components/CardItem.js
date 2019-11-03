@@ -6,13 +6,10 @@ import Icon from "./Icon";
 
 const CardItem = ({
 	actions,
-	description,
 	image,
-	matches,
 	name,
 	onPressLeft,
 	onPressRight,
-	status,
 	variant
 }) => {
 	// Custom styling

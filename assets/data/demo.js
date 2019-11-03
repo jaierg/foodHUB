@@ -1,9 +1,13 @@
+// import {arr} from "./HackDemo";
+//import {arr} from "./Test";
+//import {prods} from "./HackDemo";
+
 module.exports = [
 	{
 		id: 1,
-		name: 'Leanne Graham',
-		status: 'Online',
-		match: '78',
+		name: "Eggs",
+		status: "$3.75",
+		match: "$3.75",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		message:
@@ -12,39 +16,39 @@ module.exports = [
 	},
 	{
 		id: 2,
-		name: 'Clementine Bauch',
-		match: '93',
+		name:  "Milk",
+		match: "$2.99",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
-		status: 'Offline',
+		status: "$2.99",
 		message: "Someone like you. Someone who'll rattle the cages.",
 		image: require('../images/02.jpg')
 	},
 	{
 		id: 3,
-		name: 'Ervin Howell',
-		match: '45',
+		name: "Bread",
+		match: "$1.99",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
-		status: 'Offline',
+		status: "$1.99",
 		message:
 			'Oh, hee-hee, aha. Ha, ooh, hee, ha-ha, ha-ha. And I thought my jokes were bad.',
 		image: require('../images/03.jpg')
 	},
 	{
 		id: 4,
-		name: 'John Lebsack',
-		match: '88',
+		name: "Bananas",
+		match: "$0.50",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
-		status: 'Online',
+		status: "$0.50",
 		message: "Bats frighten me. It's time my enemies shared my dread.",
 		image: require('../images/04.jpg')
 	},
 	{
 		id: 5,
-		name: 'James Dietrich',
-		match: '76',
+		name: "Sundae",
+		match: "$6.99",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Offline',
@@ -53,8 +57,8 @@ module.exports = [
 	},
 	{
 		id: 6,
-		name: 'Patricia Schulist',
-		match: '95',
+		name: "Sundae",
+		match: "$6.99",
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Online',
@@ -63,7 +67,7 @@ module.exports = [
 		image: require('../images/06.jpg')
 	},
 	{
-		id: 7,
+/*		id: 7,
 		name: 'Chelsey Weissnat',
 		match: '67',
 		description:
@@ -111,5 +115,6 @@ module.exports = [
 		message:
 			'You want order in Gotham. Batman must take off his mask and turn himself in.',
 		image: require('../images/10.jpg')
+		*/
 	}
 ];
