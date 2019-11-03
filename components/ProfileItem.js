@@ -16,11 +16,11 @@ const ProfileItem = ({
 }) => {
 	return (
 		<View style={styles.containerProfileItem}>
-			<View style={styles.matchesProfileItem}>
+			{/* <View style={styles.matchesProfileItem}>
 				<Text style={styles.matchesTextProfileItem}>
 					<Icon name="heart" /> {matches}% Match!
 				</Text>
-			</View>
+			</View> */}
 
 			<Text style={styles.name}>{name}</Text>
 
@@ -28,33 +28,33 @@ const ProfileItem = ({
 				{age} - {location}
 			</Text>
 
-			<View style={styles.info}>
+			{/* <View style={styles.info}>
 				<Text style={styles.iconProfile}>
 					<Icon name="user" />
 				</Text>
 				<Text style={styles.infoContent}>{info1}</Text>
-			</View>
+			</View> */}
 
-			<View style={styles.info}>
+			{/* <View style={styles.info}>
 				<Text style={styles.iconProfile}>
 					<Icon name="circle" />
 				</Text>
 				<Text style={styles.infoContent}>{info2}</Text>
-			</View>
+			</View> */}
 
-			<View style={styles.info}>
+			{/* <View style={styles.info}>
 				<Text style={styles.iconProfile}>
 					<Icon name="hashtag" />
 				</Text>
 				<Text style={styles.infoContent}>{info3}</Text>
-			</View>
+			</View> */}
 
-			<View style={styles.info}>
+			{/* <View style={styles.info}>
 				<Text style={styles.iconProfile}>
 					<Icon name="calendar" />
 				</Text>
 				<Text style={styles.infoContent}>{info4}</Text>
-			</View>
+			</View> */}
 		</View>
 	);
 };

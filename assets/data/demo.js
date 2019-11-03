@@ -80,7 +80,7 @@ module.exports = [
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		age: '27',
-		location: 'Irvine, CA',
+		location: 'Atlanta, GA',
 		info1: 'Straight, Single, 5"10',
 		info2: 'Tea Totaller, Loves Photography & Travel',
 		info3: 'Beaches, Mountain, Cafe, Movies',

@@ -32,7 +32,7 @@ const Profile = () => {
 		>
 			<ScrollView style={styles.containerProfile}>
 				<ImageBackground source={image} style={styles.photo}>
-					<View style={styles.top}>
+					{/* <View style={styles.top}>
 						<TouchableOpacity>
 							<Text style={styles.topIconLeft}>
 								<Icon name="chevronLeft" />
@@ -44,21 +44,21 @@ const Profile = () => {
 								<Icon name="optionsV" />
 							</Text>
 						</TouchableOpacity>
-					</View>
+					</View> */}
 				</ImageBackground>
 
 				<ProfileItem
-					matches={match}
+					// matches={match}
 					name={name}
 					age={age}
 					location={location}
-					info1={info1}
-					info2={info2}
-					info3={info3}
-					info4={info4}
+					// info1={info1}
+					// info2={info2}
+					// info3={info3}
+					// info4={info4}
 				/>
 
-				<View style={styles.actionsProfile}>
+				{/* <View style={styles.actionsProfile}>
 					<TouchableOpacity style={styles.circledButton}>
 						<Text style={styles.iconButton}>
 							<Icon name="optionsH" />
@@ -71,7 +71,7 @@ const Profile = () => {
 						</Text>
 						<Text style={styles.textButton}>Start chatting</Text>
 					</TouchableOpacity>
-				</View>
+				</View> */}
 			</ScrollView>
 		</ImageBackground>
 	);

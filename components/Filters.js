@@ -8,7 +8,7 @@ const Filters = () => {
 	return (
 		<TouchableOpacity style={styles.filters}>
 			<Text style={styles.filtersText}>
-				<Icon name="filter" /> Filters
+				<Icon name="filter" /> Cart
 			</Text>
 		</TouchableOpacity>
 	);
