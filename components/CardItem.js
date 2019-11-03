@@ -56,9 +56,9 @@ const CardItem = ({
 			<Text style={nameStyle}>{name}</Text>
 
 			{/* DESCRIPTION */}
-			{description && (
+			{/* {description && (
 				<Text style={styles.descriptionCardItem}>{arrayExample[0]}</Text>
-			)}
+			)} */}
 
 			{/* STATUS */}
 			{/* {status && (

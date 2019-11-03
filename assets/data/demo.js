@@ -1,11 +1,11 @@
-import {arr} from "./HackDemo";
+// import {arr} from "./HackDemo";
 // import {arr} from "./Test";
 //import {prods} from "./HackDemo";
 
 module.exports = [
 	{
 		id: 1,
-		name: `${arr}`,
+		name: "Eggs",
 		status: "$3.75",
 		match: "$3.75",
 		description:
