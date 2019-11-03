@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../assets/styles";
+import API from "../data/HackDemo";
 
 import { Text, View, Image, Dimensions, TouchableOpacity } from "react-native";
 import Icon from "./Icon";
