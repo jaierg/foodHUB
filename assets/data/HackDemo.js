@@ -1,4 +1,4 @@
-// module.exports = [
+//module.exports = [
 //     Product eggs = new Product(a, 3),
 //     Product milk = new Product(a, 3),
 //     Product bananas = new Product(a, 3),
