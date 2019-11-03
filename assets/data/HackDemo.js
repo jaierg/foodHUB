@@ -34,15 +34,15 @@ class Package{
 
 
 var prods= [
-    eggs = new Product("Eggs", 3.50),
-    milk = new Product("Milk", 2.75),
-    bananas = new Product("Bananas", 1.90),
-     bread = new Product("Bread", 1.99),
-     brownie = new Product("Brownie", 1.00),
-     vIceCream = new Product("Vanilla Ice cream", 5.90),
-     cSyrup = new Product("Chocolate Syrup", 1.50),
-     wCream = new Product("Whipped Cream", 3.99),
-     cherries = new Product("Cherries", 1.00),
+    eggs = new Product("Eggs", '$3.50'),
+    milk = new Product("Milk", '$2.75'),
+    bananas = new Product("Bananas", '$1.90'),
+     bread = new Product("Bread", '$1.99'),
+     brownie = new Product("Brownie", '$1.00'),
+     vIceCream = new Product("Vanilla Ice cream", '$5.90'),
+     cSyrup = new Product("Chocolate Syrup", '$1.50'),
+     wCream = new Product("Whipped Cream", '$3.99'),
+     cherries = new Product("Cherries", '$1.00'),
      //brownieSunday = new Package(brownie, vIceCream, cSyrup, wCream, cherries)
 
 ];
