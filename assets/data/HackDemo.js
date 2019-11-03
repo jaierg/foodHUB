@@ -1,14 +1,21 @@
  class Product{
-     constructor(name, price){
+     Constructor(name, price, inCart){
      this.name = name;
      this. price = price;
      }
  }
  class Package{
-     constructor(p1, p2, p3, p4, p5){
+     Constructor(p1, p2, p3, p4, p5){
          Package = [p1,p2,p3,p4,p5];
      }
- }
+ } 
+var prods=[];//global variable  
+function a(){  
+alert(prods)
+}  
+function b(){  
+alert(prods)
+}   
 
  
  
@@ -26,30 +33,31 @@
 
  ];
 
- module.exports.prods;
+ 
+
+ //module.exports.prods;
 
 
 // The fetch is throwing right away, after many hours of troubleshooting,
 // we are ignoring it and hardcoding for now.
-var arr = "Shain";
 
-function api(){
-fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-documents/20191102-564452-10100006-0', {
-  method: 'POST',
-  headers: {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json',
-    'Authorization': 'Basic YWNjdDpyb290QGhhY2tfZm9vZGh1Yjp+K0o8OTYhXX11',
-    'nep-application-key': '8a0384356ddb119e016e2ab8ebf10090',
-    'nep-organization': 'silver-merchant-552518',
-    'nep-service-version': '2:1'
-  },
-}).then(response => response.json())
-    // arr.push(response.json())
-    .catch((error) => {
+// function api(){
+// fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-documents/20191102-564452-10100006-0', {
+//   method: 'POST',
+//   headers: {
+//     'Accept': 'application/json',
+//     'Content-Type': 'application/json',
+//     'Authorization': 'Basic YWNjdDpyb290QGhhY2tfZm9vZGh1Yjp+K0o8OTYhXX11',
+//     'nep-application-key': '8a0384356ddb119e016e2ab8ebf10090',
+//     'nep-organization': 'silver-merchant-552518',
+//     'nep-service-version': '2:1'
+//   },
+// }).then(response => response.json())
+//     // arr.push(response.json())
+//     .catch((error) => {
 
-      console.error(error);
-    });
-}
+//       console.error(error);
+//     });
+//}
 
-module.exports.arr = api();
+//module.exports.arr = api();

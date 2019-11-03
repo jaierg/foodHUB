@@ -8,7 +8,7 @@ const Icon = ({ name }) => {
 		dislike: "&#xe802;",
 		flash: "&#xe803;",
 		marker: "&#xf031;",
-		filter: "&#xf0b0;",
+		filter: "&#xf50d;",
 		user: "&#xf061;",
 		circle: "&#xf039;",
 		hashtag: "&#xf029;",
