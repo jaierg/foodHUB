@@ -1,11 +1,11 @@
-// import {arr} from "./HackDemo";
-//import {arr} from "./Test";
+import {arr} from "./HackDemo";
+// import {arr} from "./Test";
 //import {prods} from "./HackDemo";
 
 module.exports = [
 	{
 		id: 1,
-		name: "Eggs",
+		name: `${arr}`,
 		status: "$3.75",
 		match: "$3.75",
 		description:
@@ -55,7 +55,7 @@ module.exports = [
 		message: "It's not who I am underneath but what I do that defines me.",
 		image: require('../images/05.jpg')
 	},
-	{
+	/*{
 		id: 6,
 		name: "Sundae",
 		match: "$6.99",
@@ -67,7 +67,7 @@ module.exports = [
 		image: require('../images/06.jpg')
 	},
 	{
-/*		id: 7,
+		id: 7,
 		name: 'Chelsey Weissnat',
 		match: '67',
 		description:
@@ -115,6 +115,6 @@ module.exports = [
 		message:
 			'You want order in Gotham. Batman must take off his mask and turn himself in.',
 		image: require('../images/10.jpg')
-		*/
-	}
+		
+	}*/
 ];

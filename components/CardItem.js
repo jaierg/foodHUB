@@ -10,8 +10,13 @@ const CardItem = ({
 	name,
 	onPressLeft,
 	onPressRight,
-	variant
+	variant,
+	description,
+	matches
 }) => {
+	let arrayExample = [];
+	arrayExample.push(name);
+	module.exports.cart = arrayExample;
 	// Custom styling
 	const fullWidth = Dimensions.get("window").width;
 	const imageStyle = [
@@ -31,28 +36,28 @@ const CardItem = ({
 			fontSize: variant ? 15 : 30
 		}
 	];
-
 	return (
 		<View style={styles.containerCardItem}>
 			{/* IMAGE */}
 			<Image source={image} style={imageStyle} />
+			
 
 			{/* MATCHES */}
-			{/* {matches && (
+			{matches && (
 				<View style={styles.matchesCardItem}>
 					<Text style={styles.matchesTextCardItem}>
-						<Icon name="heart" /> {matches}% Match!
+						{matches}
 					</Text>
 				</View>
-			)} */}
+			)}
 
 			{/* NAME */}
 			<Text style={nameStyle}>{name}</Text>
 
 			{/* DESCRIPTION */}
-			{/* {description && (
-				<Text style={styles.descriptionCardItem}>{description}</Text>
-			)} */}
+			{description && (
+				<Text style={styles.descriptionCardItem}>{arrayExample[0]}</Text>
+			)}
 
 			{/* STATUS */}
 			{/* {status && (
@@ -71,15 +76,19 @@ const CardItem = ({
 						</Text>
 					</TouchableOpacity> */}
 
-					<TouchableOpacity style={styles.button} onPress={() => onPressRight()}>
+					<TouchableOpacity style={styles.button} onPress={() => 
+					onPressRight()
+					}>
 						<Text style={styles.like}>
 							<Icon name="like" />
 						</Text>
 					</TouchableOpacity>
-
+					
 					<TouchableOpacity
 						style={styles.button}
-						onPress={() => onPressLeft()}
+						onPress={() =>
+							onPressLeft()
+						}
 					>
 						<Text style={styles.dislike}>
 							<Icon name="dislike" />
@@ -95,6 +104,5 @@ const CardItem = ({
 			)}
 		</View>
 	);
-};
-
+}
 export default CardItem;

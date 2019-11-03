@@ -28,12 +28,13 @@
 
  module.exports.prods;
 
-/*
-The fetch is throwing right away, after many hours of troubleshooting,
-we are ignoring it and hardcoding for now.
+
+// The fetch is throwing right away, after many hours of troubleshooting,
+// we are ignoring it and hardcoding for now.
+
 function api(){
 fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-documents/20191102-564452-10100006-0', {
-  method: 'GET',
+  method: 'POST',
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
@@ -49,4 +50,5 @@ fetch('https://gateway-staging.ncrcloud.com/transaction-document/transaction-doc
       console.error(error);
     });
 }
-*/
+
+api();
