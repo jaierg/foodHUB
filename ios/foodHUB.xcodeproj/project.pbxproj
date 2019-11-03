@@ -39,10 +39,10 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		AE961532636B4355A3C6B744 /* tinderclone.svg in Resources */ = {isa = PBXBuildFile; fileRef = C9130A345DF144A98C66E119 /* tinderclone.svg */; };
-		3494E2518BDB49739E65A025 /* tinderclone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5228C486DE8404487757E69 /* tinderclone.ttf */; };
-		E38250B6E3BB4ABC9A9AB834 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A25ADEF88342B39ABE2F1B /* libRNGestureHandler.a */; };
-		BBDDDE9643244BF780270F48 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BBC6E8EF484E4BA2D98596 /* libRNGestureHandler-tvOS.a */; };
+		D59E841BF6C84E44BB8A82E9 /* tinderclone.svg in Resources */ = {isa = PBXBuildFile; fileRef = 52CDDD001DD04BC086E770C1 /* tinderclone.svg */; };
+		E8043DF854DC4B319C5EB306 /* tinderclone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38F2F71531964A86B9E75EC8 /* tinderclone.ttf */; };
+		77246A56695C43DCBF8F3A2A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D983FA617BB4042808F2114 /* libRNGestureHandler.a */; };
+		0EA2B7BD69DD43E0A47C452D /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5ADF09781543CDBB30F1A4 /* libRNGestureHandler-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -350,11 +350,11 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		C9130A345DF144A98C66E119 /* tinderclone.svg */ = {isa = PBXFileReference; name = "tinderclone.svg"; path = "../assets/fonts/tinderclone.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C5228C486DE8404487757E69 /* tinderclone.ttf */ = {isa = PBXFileReference; name = "tinderclone.ttf"; path = "../assets/fonts/tinderclone.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E179770F70C34585BB13B2BD /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		E9A25ADEF88342B39ABE2F1B /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		13BBC6E8EF484E4BA2D98596 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; name = "libRNGestureHandler-tvOS.a"; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		52CDDD001DD04BC086E770C1 /* tinderclone.svg */ = {isa = PBXFileReference; name = "tinderclone.svg"; path = "../assets/fonts/tinderclone.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		38F2F71531964A86B9E75EC8 /* tinderclone.ttf */ = {isa = PBXFileReference; name = "tinderclone.ttf"; path = "../assets/fonts/tinderclone.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		043D03C6A27E464AB1F35CAB /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		7D983FA617BB4042808F2114 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		CC5ADF09781543CDBB30F1A4 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; name = "libRNGestureHandler-tvOS.a"; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,7 +383,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				E38250B6E3BB4ABC9A9AB834 /* libRNGestureHandler.a in Frameworks */,
+				77246A56695C43DCBF8F3A2A /* libRNGestureHandler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +400,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				BBDDDE9643244BF780270F48 /* libRNGestureHandler-tvOS.a in Frameworks */,
+				0EA2B7BD69DD43E0A47C452D /* libRNGestureHandler-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +574,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				E179770F70C34585BB13B2BD /* RNGestureHandler.xcodeproj */,
+				043D03C6A27E464AB1F35CAB /* RNGestureHandler.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -596,7 +596,7 @@
 				00E356EF1AD99517003FC87E /* foodHUBTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				617ECBF8D91841B29B71E3A8 /* Resources */,
+				01C3C83677654D9A9A244C76 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -623,11 +623,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		617ECBF8D91841B29B71E3A8 /* Resources */ = {
+		01C3C83677654D9A9A244C76 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				C9130A345DF144A98C66E119 /* tinderclone.svg */,
-				C5228C486DE8404487757E69 /* tinderclone.ttf */,
+				52CDDD001DD04BC086E770C1 /* tinderclone.svg */,
+				38F2F71531964A86B9E75EC8 /* tinderclone.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1079,8 +1079,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				AE961532636B4355A3C6B744 /* tinderclone.svg in Resources */,
-				3494E2518BDB49739E65A025 /* tinderclone.ttf in Resources */,
+				D59E841BF6C84E44BB8A82E9 /* tinderclone.svg in Resources */,
+				E8043DF854DC4B319C5EB306 /* tinderclone.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
